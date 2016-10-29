@@ -30,6 +30,9 @@ nnoremap <C-L> :bufdo e<CR>
 
 " Setting up tagbar
 nnoremap <F8> :TagbarToggle<CR>
+
+" Semicolon map
+nnoremap <leader>; :normal! mqA;<ESC>`q
 " }}}
 
 " Maps for Obsession ------------------ {{{
