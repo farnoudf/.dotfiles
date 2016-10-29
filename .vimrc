@@ -114,6 +114,9 @@ set laststatus=2
 " }}}
 
 " Basic Setting ----------------- {{{
+" Disabling ex-mode
+nnoremap Q <NOP>
+
 " Backspace fix
 set backspace=2
 
