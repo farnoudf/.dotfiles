@@ -14,6 +14,11 @@ export HISTIGNORE="&:??:?:[ ]*:clear:exit:logout:pwd"
 alias ls='ls -G'
 alias ll='ls -la'
 alias h='history'
+alias gsts='git status'
+alias gadd='git add'
+alias gcmt='git commit'
+alias gpsh='git push'
+alias gpll='git pull'
 
 # Setting the color for ls
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
