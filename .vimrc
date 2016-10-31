@@ -103,7 +103,7 @@ let g:syntastic_check_on_wq = 0
 let g:vimshell_no_save_history_commands = {'history' : 1, 'h' : 1, 'histdel' : 1, 'cd' : 1, 'pwd' : 1}
 let g:vimshell_user_prompt = 'fnamemodify(getcwd(), ":~")'
 nnoremap <C-n> :VimShell<CR>
-nnoremap <C-K> :hi clear SpellBad<CR>
+nnoremap <leader>k :hi clear SpellBad<CR>
 " }}}
 
 " Setting up airline -------------------- {{{
