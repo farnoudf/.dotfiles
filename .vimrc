@@ -138,7 +138,7 @@ colorscheme solarized
 set cursorline
 set colorcolumn=81
 
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 12
 set background=dark
 
 nnoremap <C-m> :set background=dark<CR>
