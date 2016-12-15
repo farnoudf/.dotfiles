@@ -28,5 +28,5 @@ export TERM="xterm-256color"
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
-PATH="/usr/local/Cellar:/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+PATH="/usr/local/Cellar:/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}:/Users/Farnood/Development/android-sdk-macosx/platform-tools"
 export PATH
