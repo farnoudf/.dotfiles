@@ -186,6 +186,12 @@ set showmatch
 " Search as characters are entered
 set incsearch
 
+" Ignore case while searcing
+set ignorecase
+
+" Only search case insensitive for lower case entries
+set smartcase
+
 " Highlight matches
 set hlsearch
 
