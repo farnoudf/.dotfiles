@@ -27,6 +27,7 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export TERM="xterm-256color"
 
 # Setting PATH for Python 3.5
-# The orginal version is saved in .bash_profile.pysave
-PATH="/usr/local/Cellar:/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}:/Users/Farnood/Development/android-sdk-macosx/platform-tools"
+# added by Anaconda3 4.4.0 installer
+# The orginal version is saved in .bash_profile-anaconda3.bak
+PATH="/Users/Farnood/Documents/anaconda3/bin:/usr/local/Cellar:/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
