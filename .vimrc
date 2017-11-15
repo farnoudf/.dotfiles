@@ -86,6 +86,14 @@ augroup filetype_txt
 augroup END
 " }}}
 
+" View settings to preserve foldings --------------------- {{{
+augroup save_fold
+   autocmd!
+   autocmd BufWinLeave *.* mkview
+   autocmd BufWinEnter *.* silent loadview
+augroup END
+" }}}
+
 " Syntastic setting --------------------- {{{
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
