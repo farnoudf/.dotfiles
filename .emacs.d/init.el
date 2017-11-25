@@ -4,8 +4,7 @@
       '(("gnu" . "http://elpa.gnu.org./packages/")
         ("org" . "http://orgmode.org/elpa/")
         ("melpa" . "http://melpa.org/packages/")
-        ("melpa-stable" . "http://stable.melpa.org/packages/")
-        ("marmalade" . "http://marmalade-repo.org/pachages/")))
+        ("melpa-stable" . "http://stable.melpa.org/packages/")))
 (package-initialize)
 
 (unless (package-installed-p 'use-package)
@@ -25,7 +24,13 @@
    :init
    (evil-mode t)
    :config
-   (require 'evil))
+   (use-package evil-leader
+      :config
+      (global-evil-leader-mode)
+      (evil-leader/set-leader "<SPC>"))
+   (use-package evil-surround
+      :config
+      (global-evil-surround-mode 1)))
 
 (setq color-themes '())
 (use-package color-theme-solarized
