@@ -1,16 +1,26 @@
-" Plugins List ------------------ {{{
-" Plugins: Pathogen, CtrlP, Supertab, Syntastic, Vinegar, Fugitive, Vitality
-"          DelimitMate, Neocomplete, Neosnippet (library), Solarized, Airline
-"          (fonts & themes), Sensible, Commentery, VimShell (Vimproc), Surround
-"          Tagbar, Obsession
-"          }}}
-
 " First things first! ------------------ {{{
 " Change leader key to space
 let mapleader = "\<Space>"
 
-" Activating pathogen plugin (plugin manager)
-execute pathogen#infect()
+" Setting up vim-plug (plugin manager)
+call plug#begin('~/.vim/plugged')
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ervandew/supertab'
+Plug 'vim-syntastic/syntastic'
+Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-fugitive'
+Plug 'Raimondi/delimitMate'
+Plug 'Shougo/neocomplete.vim'
+Plug 'Shougo/neosnippet.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-commentary'
+Plug 'Shougo/vimshell.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-obsession'
+call plug#end()
 " }}}
 
 " Mappings ----------------- {{{
