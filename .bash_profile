@@ -19,6 +19,7 @@ alias gadd='git add'
 alias gcmt='git commit'
 alias gpsh='git push'
 alias gpll='git pull'
+alias gstsh='git stash'
 
 # Setting the color for ls
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
