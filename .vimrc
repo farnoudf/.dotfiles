@@ -161,7 +161,7 @@ set colorcolumn=81
 if has("mac")
    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
 else
-   set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 12
+   set guifont=DejaVu\ Sans\ Mono\ 10
 endif
 set background=dark
 
