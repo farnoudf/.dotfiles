@@ -181,7 +181,7 @@ set showcmd
 set tabstop=3
 
 " Set indentation depth to 3 columns
-set shiftwidth=3
+set shiftwidth=2
 
 " Use space for tabs
 set expandtab
