@@ -178,9 +178,9 @@ set autoindent
 set showcmd
 
 " Number of visual spaces per TAB
-set tabstop=3
+set tabstop=2
 
-" Set indentation depth to 3 columns
+" Set indentation depth to 2 columns
 set shiftwidth=2
 
 " Use space for tabs
