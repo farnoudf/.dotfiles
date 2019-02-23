@@ -15,6 +15,8 @@
 (eval-when-compile
    (require 'use-package))
 
+(setq mac-command-modifier 'meta)
+
 (use-package helm
    :config
    (require 'helm-config)

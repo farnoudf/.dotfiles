@@ -22,6 +22,7 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'Shougo/vimshell.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-obsession'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 " }}}
 
