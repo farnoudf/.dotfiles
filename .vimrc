@@ -3,6 +3,12 @@
 let mapleader = "\<Space>"
 
 " Setting up vim-plug (plugin manager)
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 call plug#begin('~/.vim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'
@@ -128,9 +134,9 @@ nnoremap <leader>k :hi clear SpellBad<CR>
 " }}}
 
 " Setting up airline -------------------- {{{
-let g:airline_theme='solarized'
+" let g:airline_theme='solarized'
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1 " Debian: sudo apt-get install fonts-powerline
 set laststatus=2
 " }}}
 
@@ -155,7 +161,7 @@ set ruler
 inoremap jk <ESC>
 
 " Theme color
-colorscheme solarized
+" colorscheme solarized
 set cursorline
 set colorcolumn=81
 
