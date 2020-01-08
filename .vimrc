@@ -134,7 +134,7 @@ nnoremap <leader>k :hi clear SpellBad<CR>
 " }}}
 
 " Setting up airline -------------------- {{{
-" let g:airline_theme='solarized'
+let g:airline_theme='solarized'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1 " Debian: sudo apt-get install fonts-powerline
 set laststatus=2
@@ -161,7 +161,7 @@ set ruler
 inoremap jk <ESC>
 
 " Theme color
-" colorscheme solarized
+colorscheme solarized
 set cursorline
 set colorcolumn=81
 
